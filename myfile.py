@@ -156,3 +156,37 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# command:
+# addUser admin1 ADMIN
+# user added
+
+# command:
+# addUser user1 USER
+# user added
+
+# command:
+# addTopic cricket admin1
+# topic added
+
+# command:
+# subscribeTopic cricket user1
+# subscribed
+
+# command:
+# publishMessage 1 cricket "Hello, this is a message!"
+# msg published
+
+# command:
+# processMessages
+# processing...
+# {
+# topic: cricket,
+# message: "Hello, this is a message!"
+# sentto: user1
+# }
+# messages successfully processed.
+# done
+
+
